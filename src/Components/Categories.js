@@ -1,4 +1,4 @@
-import './Styles/Categories.css';
+import '../Styles/Categories.css';
 
 const Categories = () => (
   <div>

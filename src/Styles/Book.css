@@ -1,3 +1,7 @@
+body{
+  background-color: purple;
+}
+
 .booklist {
   list-style: none;
 }
@@ -10,3 +14,4 @@
 button {
   width: fit-content;
 }
+
