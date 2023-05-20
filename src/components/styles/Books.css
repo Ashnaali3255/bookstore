@@ -1,4 +1,4 @@
-body{
+body {
   background-color: plum;
 }
 
@@ -19,7 +19,7 @@ button {
   border-block-color: palevioletred;
 }
 
-.form{
+.form {
   margin-left: 3rem;
   gap: 1rem;
   display: flex;
