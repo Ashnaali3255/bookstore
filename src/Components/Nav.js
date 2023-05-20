@@ -1,5 +1,5 @@
 import { Link, Outlet } from 'react-router-dom';
-import '../Styles/Nav.css';
+import '../styles/Nav.css';
 
 const Navbar = () => (
   <nav className="nav">

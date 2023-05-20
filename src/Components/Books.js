@@ -1,6 +1,6 @@
 import Book from './Book';
 import BookForm from './BookForm';
-import './Styles/Book.css';
+import './styles/Book.css';
 
 const Books = () => (
 
