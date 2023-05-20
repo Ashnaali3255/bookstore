@@ -1,6 +1,6 @@
 import Book from './Book';
-import BookForm from './BookForm';
-import './styles/Book.css';
+import NewBookForm from './NewBookForm';
+import './styles/Books.css';
 
 const Books = () => (
 
@@ -16,7 +16,7 @@ const Books = () => (
         <Book title="The Merchant of Venice" author="Shakespeare" />
       </li>
     </ul>
-    <BookForm />
+    <NewBookForm />
   </div>
 );
 export default Books;

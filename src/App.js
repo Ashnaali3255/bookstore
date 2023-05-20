@@ -1,13 +1,13 @@
 import './App.css';
-import { Routes, Route } from 'react-router-dom';
-import Books from './Components/Book';
-import Categories from './Components/Categories';
-import Nav from './Components/Nav';
+import { Route, Routes } from 'react-router-dom';
+import Books from './components/Books';
+import Categories from './components/Categories';
+import Navbar from './components/Navbar';
 
 const App = () => (
 
   <>
-    <Nav />
+    <Navbar />
     <div className="app">
       <Routes>
         <Route path="/" element={<Books />} />

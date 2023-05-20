@@ -1,4 +1,4 @@
-const BookForm = () => (
+const NewBookForm = () => (
   <form className="form">
     <input type="text" placeholder="Book title" className="input" />
     <input type="text" placeholder="Author" className="input" />
@@ -6,4 +6,4 @@ const BookForm = () => (
   </form>
 );
 
-export default BookForm;
+export default NewBookForm;
