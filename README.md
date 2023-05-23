@@ -20,7 +20,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [BookStore] <a name="About-BookStore"></a>
+# 📖 [Redux BookStore] <a name="About-ReduxBookStore"></a>
 
 ## 🛠 Built With <a name="built-with">
 #Tech Stack
