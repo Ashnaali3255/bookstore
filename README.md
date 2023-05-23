@@ -25,15 +25,15 @@
 ## 🛠 Built With <a name="built-with">
 #Tech Stack
 
-JSX,CSS, Router
+JSX,CSS, Redux
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- KEY FEATURES -->
 
 ## 🔭 Key Features <a name="key-features"></a>
 
-- [ ] **[Display a list of books.]**
-- [ ] **[React and linters]**
+- [ ] **[Setup a Redux store]**
+- [ ] **[Create a slice to save your state and reducers]**
 - [ ] **[Add and Remove a book]**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
