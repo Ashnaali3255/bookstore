@@ -33,8 +33,8 @@ JSX,CSS, Redux
 ## 🔭 Key Features <a name="key-features"></a>
 
 - [ ] **[Setup a Redux store]**
-- [ ] **[Create a slice to save your state and reducers]**
-- [ ] **[Add and Remove a book]**
+- [ ] **[Use store, actions and reducers in React.]**
+- [ ] **[Connect React and Redux.]**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
