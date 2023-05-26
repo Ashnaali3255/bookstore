@@ -1,9 +1,11 @@
 import { useDispatch } from 'react-redux';
 import PropTypes from 'prop-types';
+
 import { CircularProgressbar } from 'react-circular-progressbar';
 import { removeBook, deleteBook } from '../redux/books/bookSlice';
 import 'react-circular-progressbar/dist/styles.css';
 import './styles/Book.css';
+
 
 const Book = ({
   title, author, category, id,
@@ -13,6 +15,7 @@ const Book = ({
   const chapter = Math.floor(Math.random() * 15);
   return (
     <div className="book">
+
       <div className="info">
         <p className="category">{category}</p>
         <h2 className="title">{title}</h2>

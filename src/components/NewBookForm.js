@@ -4,10 +4,8 @@ import { addBook, postABook } from '../redux/books/bookSlice';
 
 const NewBookForm = () => {
   const dispatch = useDispatch();
-
   const [title, setTitle] = useState('');
   const [author, setAuthor] = useState('');
-
   return (
     <form
       onSubmit={(event) => {
