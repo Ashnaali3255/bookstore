@@ -91,7 +91,7 @@ git clone: https://github.com/Ashnaali3255/bookstore.git
 👤 **Ashna Ali**
 
 - GitHub: [@githubhandle](https://github.com/Ashnaali3255)
-- Twitter: [@twitterhandle](@Ashna_Ali1)
+- Twitter: [@twitterhandle](https://twitter.com/Ashna_Ali1)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ashna-ali-342151255/)
 
 
