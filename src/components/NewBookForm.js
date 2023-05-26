@@ -1,24 +1,22 @@
 import { useDispatch } from 'react-redux';
 import { useState } from 'react';
-import { addBook } from '../redux/books/bookSlice';
+import { addBook, postABook } from '../redux/books/bookSlice';
 
 const NewBookForm = () => {
   const dispatch = useDispatch();
-
   const [title, setTitle] = useState('');
   const [author, setAuthor] = useState('');
-
   return (
     <form
       onSubmit={(event) => {
         event.preventDefault();
         dispatch(addBook({ title, author }));
+        dispatch(postABook({ title, author }));
         setAuthor('');
         setTitle('');
       }}
       className="form"
     >
-
       <input
         placeholder="Book title"
         className="input"
@@ -27,7 +25,6 @@ const NewBookForm = () => {
         value={title}
         onChange={(e) => setTitle(e.target.value)}
       />
-
       <input
         placeholder="Author"
         className="input"
