@@ -1,6 +1,6 @@
 import { useDispatch } from 'react-redux';
 import { useState } from 'react';
-import { addBook } from '../redux/books/bookSlice';
+import { addBook, postABook } from '../redux/books/bookSlice';
 
 const NewBookForm = () => {
   const dispatch = useDispatch();
@@ -13,30 +13,33 @@ const NewBookForm = () => {
       onSubmit={(event) => {
         event.preventDefault();
         dispatch(addBook({ title, author }));
+        dispatch(postABook({ title, author }));
         setAuthor('');
         setTitle('');
       }}
       className="form"
     >
+      <h2 className="form-title">ADD NEW BOOK</h2>
+      <div className="inputs">
+        <input
+          placeholder="Book title"
+          className="input"
+          name="title"
+          type="text"
+          value={title}
+          onChange={(e) => setTitle(e.target.value)}
+        />
 
-      <input
-        placeholder="Book title"
-        className="input"
-        name="title"
-        type="text"
-        value={title}
-        onChange={(e) => setTitle(e.target.value)}
-      />
-
-      <input
-        placeholder="Author"
-        className="input"
-        name="author"
-        type="text"
-        value={author}
-        onChange={(e) => setAuthor(e.target.value)}
-      />
-      <button type="submit" className="form-button">Add Book</button>
+        <input
+          placeholder="Author"
+          className="input"
+          name="author"
+          type="text"
+          value={author}
+          onChange={(e) => setAuthor(e.target.value)}
+        />
+        <button type="submit" className="form-button">Add Book</button>
+      </div>
     </form>
   );
 };
