@@ -5,6 +5,7 @@ const url = 'https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstor
 
 const categories = ['Action', 'Fiction', 'Economy', 'Science Fiction', 'Drama'];
 
+
 const initialState = {
   books: [],
 };
@@ -22,7 +23,9 @@ export const postABook = createAsyncThunk('book/addBook', async (book) => {
       item_id: Math.random().toString(36).substring(2, 11),
       title: book.title,
       author: book.author,
+
       category: categories[Math.floor(Math.random() * categories.length)],
+
     }),
     headers: {
       'Content-type': 'application/json; charset=UTF-8',
