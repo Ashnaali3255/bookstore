@@ -5,7 +5,6 @@ const url = 'https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstor
 
 const categories = ['Action', 'Fiction', 'Economy', 'Science Fiction', 'Drama'];
 
-
 const initialState = {
   books: [],
 };

@@ -5,7 +5,6 @@ import { removeBook, deleteBook } from '../redux/books/bookSlice';
 import 'react-circular-progressbar/dist/styles.css';
 import './styles/Book.css';
 
-
 const Book = ({
   title, author, category, id,
 }) => {
