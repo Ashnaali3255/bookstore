@@ -1,6 +1,6 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
-const id = 'Ku6HMfRxobX956gVoTVq';
+const id = 'OQo0tm9K5JZRXbAJo9Th';
 const url = 'https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi';
 
 const initialState = {
@@ -8,7 +8,7 @@ const initialState = {
 };
 
 export const fetchBooks = createAsyncThunk('book/fetchBooks', async () => {
-  const response = await fetch('https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi/apps/Ku6HMfRxobX956gVoTVq/books');
+  const response = await fetch('https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi/apps/OQo0tm9K5JZRXbAJo9Th/books');
   const data = await response.json();
   return data;
 });
