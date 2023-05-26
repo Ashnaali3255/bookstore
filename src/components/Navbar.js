@@ -1,7 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import './styles/Navbar.css';
 import { BsPersonCircle } from 'react-icons/bs';
-// import { MdPerson } from 'react-icons/md';
 
 const Navbar = () => (
   <nav className="nav-bar">
